@@ -1,14 +1,18 @@
 # Booker
+
 ## Intro
 __Booker__ is a set of python 3 scripts that automatically book group study rooms at the ANU library.
+
 ## Warning
 It is in a very early development stage, core functions are still being implemented. No features are available as of yet.
 All of the code is being written by two first-year engineering students, so its quality it pretty terrible (sorry).
+
 ## Planned features
 + Auto-book rooms for every timetable break
 + Multiple ANU accounts (more concurrent bookings)
 + Configurable timetable, room preferences, libraries
 + Email notifications or Google calendar integration
+
 ## Technical stuff
 __Booker__ uses _requests_ python library to interact with the _anulib.anu.edu.au_ website. All the information is stored in plain-text .conf files.
 
