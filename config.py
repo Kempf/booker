@@ -60,6 +60,5 @@ def bookings(filename):
                         exit()
                 booklist.append(linelist)
     return booklist
+# Start the log when imported
 log = initlog()
-
-
