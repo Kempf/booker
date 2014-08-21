@@ -1,5 +1,4 @@
 # Booker
-
 ## Intro
 __Booker__ is a set of python 3 scripts that automatically book group study rooms at the ANU library.
 
