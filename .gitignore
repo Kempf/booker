@@ -55,5 +55,6 @@ docs/_build/
 # Sensitive login info
 login.conf
 
-# log
+# Utility
 log
+*.swp
