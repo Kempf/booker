@@ -5,5 +5,6 @@ import network
 parser = config.parser()
 anulib = network.anulib()
 print(parser.timetable('timetable.conf'))
-print(anulib.login(('u5568225','P13apauoe!')))
-
+logins = parser.logins('login.conf')
+print(logins)
+print(anulib.login(logins))
