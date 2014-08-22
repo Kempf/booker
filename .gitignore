@@ -54,3 +54,6 @@ docs/_build/
 
 # Sensitive login info
 login.conf
+
+# log
+log
