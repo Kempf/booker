@@ -19,7 +19,7 @@ __Booker__ uses _requests_ python library to interact with the _anulib.anu.edu.a
 
 Apart from the main __booker.py__ script, there are multiple utility modules:
 + __config.py__ works with (you guessed it), .conf files, storing and loading information from them.
-+ __anulib.py__ is contains functions to interact with the _anulib_ website.
++ __network.py__ contains functions to interact with the _anulib_ website.
 + __notify.py__ generates and sends out email notifications and works with the calendar.
 
 The configuration files are:
