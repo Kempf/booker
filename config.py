@@ -69,5 +69,5 @@ class parser:
         f = self.fileopen(filename,'r')
         for line in f:
             if self.checkline(line):
-                loginlist.append(line.strip().split())
+                loginlist.append(line.strip().split(','))
         return loginlist
