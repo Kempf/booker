@@ -20,8 +20,13 @@ class anulib:
         r = requests.post(self.url,data = 'logout')
         return self.success(r)
     def init(self,date,lib):
-        """Select date and library for the booking and check for errors"""
-        
+        """Select date (datetime.date) and \
+                library (Chiefly, Hancock, Law) for the booking \
+                and check for errors"""
+        data = {'bday':date.isoformat(),'building':lib} 
+        r = requests.post(self.url,data = data)
+        rout = open('rout.html','w')
+        print(r.text,file=rout)
         return self.success(r)
     def book(self,time,room):
         """Book the room at the specified time"""
